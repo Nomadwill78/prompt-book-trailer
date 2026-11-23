@@ -24,7 +24,7 @@ export const PromptBookTrailer: React.FC = () => {
   return (
     <AbsoluteFill name="Prompt Book Trailer" style={{ backgroundColor: "#05050f" }}>
       <Background />
-      <Sequence name="Hook" from={0} durationInFrames={90} layout="none">
+      <Sequence name="Hook" durationInFrames={90} layout="none">
         <HookScene />
       </Sequence>
       <Sequence name="Pain points" from={90} durationInFrames={180} layout="none">

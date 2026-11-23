@@ -128,7 +128,7 @@ const SocialPostsWord: React.FC = () => {
 export const PainPointsScene: React.FC = () => {
   return (
     <AbsoluteFill name="Pain points">
-      <Sequence name="Grants" from={0} durationInFrames={45} layout="none">
+      <Sequence name="Grants" durationInFrames={45} layout="none">
         <GrantsWord />
       </Sequence>
       <Sequence name="Board packets" from={45} durationInFrames={45} layout="none">
